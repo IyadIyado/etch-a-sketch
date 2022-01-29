@@ -21,12 +21,13 @@
 
 .controls {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
 }
 
-.block {
-	/* border: 1px solid black; */
-}
+/* .block {
+	border: 1px solid black;
+} */
 
 .grid {
 	border-right: 1px solid rgb(185, 185, 185);
@@ -45,3 +46,61 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 input[type="color"]::-webkit-color-swatch {
 	border: none;
 } */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.sketch {
+		background-color: white;
+		display: grid;
+		width: 300px;
+		height: 300px;
+		/* border: 1px solid black; */
+	}
+
+	.controls {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.sketch {
+		background-color: white;
+		display: grid;
+		width: 450px;
+		height: 450px;
+		/* border: 1px solid black; */
+	}
+
+	.controls {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.sketch {
+		background-color: white;
+		display: grid;
+		width: 620px;
+		height: 620px;
+	}
+
+	.controls {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	/* .controls {
+		display: flex;
+		justify-content: space-around;
+	} */
+}
