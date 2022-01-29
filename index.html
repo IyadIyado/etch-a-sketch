@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Etch-a-Sketch</title>
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+	<body class="body">
+		<section>
+			<section class="title">
+				<h1>Etch-a-Sketch</h1>
+			</section>
+			<section class="sketch"></section>
+			<section class="controls">
+				<div>
+					<label for="pixel" id="label"> 35 x 35</label>
+					<input name="pixel" class="size" type="range" min="10" max="64"></input>
+				</div>
+				<div>
+					<label for="color">Colour Select</label>
+					<input name="color" class="colour" type="color"></input>
+				</div>
+				<div>
+					<input type="checkbox" name="grid" id="grid" checked>
+					<label for="grid">Grid</label>
+				</div>
+
+				<button class="clear">Clear</button>
+			</section>
+		</section>
+	</body>
+
+	<script src="./index.js"></script>
+</html>

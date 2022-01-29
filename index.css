@@ -1,0 +1,47 @@
+.body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #cfbaf0;
+}
+
+.sketch {
+	background-color: white;
+	display: grid;
+	width: 800px;
+	height: 800px;
+	/* border: 1px solid black; */
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	font-size: xx-large;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-around;
+}
+
+.block {
+	/* border: 1px solid black; */
+}
+
+.grid {
+	border-right: 1px solid rgb(185, 185, 185);
+	border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+/* input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 32px;
+	height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+} */
