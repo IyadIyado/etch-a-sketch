@@ -20,7 +20,6 @@ let createSketchPad = (pixels) => {
 
 let clearScreen = () => {
 	grid.checked = true;
-	console.log("cleared");
 	let blocks = document.querySelectorAll(".block");
 	blocks.forEach((block) => {
 		block.remove();
@@ -60,5 +59,5 @@ sizeSelector.oninput = () => {
 
 sketch.addEventListener("mouseover", pencilIn(colourBtn.value));
 
-createSketchPad(35);
+createSketchPad(16);
 pencilIn("black");
