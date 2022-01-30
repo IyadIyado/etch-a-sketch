@@ -29,7 +29,6 @@
 	display: grid;
 	width: 800px;
 	height: 800px;
-	/* border: 1px solid black; */
 }
 
 .title {
@@ -43,10 +42,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
-
-/* .block {
-	border: 1px solid black;
-} */
 
 .grid {
 	border-right: 1px solid rgb(185, 185, 185);
@@ -112,12 +107,4 @@ button {
 		flex-direction: row;
 		justify-content: space-between;
 	}
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-	/* .controls {
-		display: flex;
-		justify-content: space-around;
-	} */
 }
